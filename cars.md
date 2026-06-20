@@ -6,13 +6,13 @@ cars table
 - series VARCHAR(10) NN UNIQUE INDEX
 - immatricolation YEAR NN
 - alimentation VARCHAR (50) NN 
-- cyl SMALLINT
-- power_kw SMALLINT
-- color VARCHAR (20)
-- gadgets VARCHAR (255)
-- km MEDIUMINT
-- price DECIMAL(10, 2)
-- decription TEXT
-- targa VARCHAR(10)
-- isavailable TINYINT
+- cyl SMALLINT NN
+- power_kw SMALLINT NN
+- color VARCHAR (20)  NN
+- gadgets VARCHAR (255) NULL
+- km MEDIUMINT NN
+- price DECIMAL(10, 2) NN
+- decription TEXT NULL
+- targa VARCHAR(10) NULL
+- isavailable TINYINT NN
 
