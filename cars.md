@@ -1,14 +1,18 @@
 cars table
 
-- id INT PK NN UNIQUE INDEX
+- id INT PK NN UNIQUE INDEX AI
 - brand VARCHAR(15) NN
 - model VARCHAR(15) NN
 - series VARCHAR(10) NN UNIQUE INDEX
 - immatricolation YEAR NN
 - alimentation VARCHAR (50) NN 
-- cyl INT
-- power_kw INT
+- cyl SMALLINT
+- power_kw SMALLINT
 - color VARCHAR (20)
 - gadgets VARCHAR (255)
-- km INT
+- km MEDIUMINT
+- price DECIMAL(10, 2)
+- decription TEXT
+- targa VARCHAR(10)
+- isavailable TINYINT
 
